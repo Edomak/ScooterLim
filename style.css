@@ -1,0 +1,90 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.container{
+  width: 900px;
+  height: 650px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+}
+
+#logo{
+  width: 190px;
+  margin-top: 7%;
+  margin-left: 330px;
+}
+
+#titolo{
+  margin-left: 220px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: rgb(50,205,50);
+  font-family: 'Roboto', sans-serif;
+}
+
+nav{
+  width: 800px;
+  margin: auto;
+}
+
+.input{
+  background-color: rgba(0,255,0);
+  height: 35px;
+  padding-top: 8px;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#prenota{
+  margin-left: 220px;
+  width: 100px;
+}
+
+.mono-disponibili{
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.utenti{
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-weight: bolder;
+}
+
+p{
+  margin: auto;
+  color: rgb(208,208,208);
+  font-size: 15px;
+}
+
+.carica1{
+  background-color: rgb(255,140,0);
+  height: 25px;
+  width: 30%;
+  padding-top: 10px;
+  border-radius: 7px;
+}
+
+.carica2{
+  background-color: green;
+  height: 25px;
+  width: 60%;
+  padding-top: 10px;
+  border-radius: 7px;
+}
+
+.carica3{
+  background-color: rgb(255, 0, 0);
+  height: 25px;
+  width: 15%;
+  padding-top: 10px;
+  border-radius: 7px;
+}
